@@ -1,0 +1,604 @@
+{
+  "beginTime": "Wed Nov 17 2021 16:18:59 GMT+0800 (中国标准时间)",
+  "duration": "1937 ms",
+  "transformFileExtName": [
+    {
+      "type": "wxml -> ttml",
+      "message": "转换文件名后缀 wxml -> ttml，共计 130 个文件",
+      "files": [
+        "/Users/bytedance/bytedance-vant/components/demo-block/index.ttml",
+        "/Users/bytedance/bytedance-vant/components/demo-home/index.ttml",
+        "/Users/bytedance/bytedance-vant/components/demo-home-nav/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/calendar/calendar.ttml",
+        "/Users/bytedance/bytedance-vant/dist/calendar/components/header/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/action-sheet/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/area/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/button/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/calendar/components/month/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/calendar/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/card/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/cell/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/cell-group/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/checkbox/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/checkbox-group/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/circle/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/col/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/collapse/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/collapse-item/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/config-provider/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/count-down/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/datetime-picker/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/dialog/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/divider/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/dropdown-item/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/dropdown-menu/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/empty/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/field/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/field/input.ttml",
+        "/Users/bytedance/bytedance-vant/dist/field/textarea.ttml",
+        "/Users/bytedance/bytedance-vant/dist/goods-action/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/goods-action-button/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/goods-action-icon/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/grid/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/grid-item/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/icon/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/image/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/index-anchor/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/index-bar/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/info/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/loading/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/nav-bar/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/notice-bar/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/notify/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/overlay/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/panel/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/picker/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/picker/toolbar.ttml",
+        "/Users/bytedance/bytedance-vant/dist/picker-column/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/popup/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/progress/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/radio/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/rate/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/radio-group/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/row/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/share-sheet/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/search/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/share-sheet/options.ttml",
+        "/Users/bytedance/bytedance-vant/dist/sidebar/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/sidebar-item/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/skeleton/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/slider/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/stepper/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/steps/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/sticky/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/submit-bar/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/swipe-cell/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/switch/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/tab/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/tabbar/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/tabbar-item/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/tabs/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/tag/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/toast/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/transition/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/tree-select/index.ttml",
+        "/Users/bytedance/bytedance-vant/dist/uploader/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/button/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/area/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/calendar/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/card/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/cell/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/checkbox/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/circle/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/col/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/collapse/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/config-provider/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/count-down/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/dashboard/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/datetime-picker/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/dialog/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/divider/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/dropdown-menu/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/empty/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/grid/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/icon/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/field/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/goods-action/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/index-bar/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/image/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/loading/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/nav-bar/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/notice-bar/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/notify/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/overlay/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/panel/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/picker/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/popup/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/progress/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/radio/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/rate/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/search/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/share-sheet/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/sidebar/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/skeleton/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/slider/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/stepper/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/steps/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/sticky/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/submit-bar/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/swipe-cell/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/switch/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/tab/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/tabbar/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/tag/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/toast/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/transition/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/action-sheet/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/tree-select/index.ttml",
+        "/Users/bytedance/bytedance-vant/pages/uploader/index.ttml"
+      ]
+    },
+    {
+      "type": "wxss -> ttss",
+      "message": "转换文件名后缀 wxss -> ttss，共计 133 个文件",
+      "files": [
+        "/Users/bytedance/bytedance-vant/app.ttss",
+        "/Users/bytedance/bytedance-vant/components/demo-block/index.ttss",
+        "/Users/bytedance/bytedance-vant/components/demo-home/index.ttss",
+        "/Users/bytedance/bytedance-vant/components/demo-home-nav/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/common/style/mixins/clearfix.ttss",
+        "/Users/bytedance/bytedance-vant/dist/common/style/var.ttss",
+        "/Users/bytedance/bytedance-vant/dist/common/style/clearfix.ttss",
+        "/Users/bytedance/bytedance-vant/dist/common/style/mixins/hairline.ttss",
+        "/Users/bytedance/bytedance-vant/dist/common/style/mixins/ellipsis.ttss",
+        "/Users/bytedance/bytedance-vant/dist/action-sheet/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/area/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/button/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/calendar/components/header/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/calendar/components/month/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/calendar/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/card/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/cell/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/cell-group/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/checkbox/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/checkbox-group/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/circle/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/col/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/collapse/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/collapse-item/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/common/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/common/style/ellipsis.ttss",
+        "/Users/bytedance/bytedance-vant/dist/common/style/hairline.ttss",
+        "/Users/bytedance/bytedance-vant/dist/count-down/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/datetime-picker/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/dialog/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/divider/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/dropdown-item/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/dropdown-menu/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/empty/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/field/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/goods-action/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/goods-action-button/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/goods-action-icon/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/grid/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/grid-item/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/icon/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/image/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/index-anchor/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/index-bar/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/info/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/loading/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/nav-bar/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/notice-bar/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/notify/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/overlay/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/panel/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/picker/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/picker-column/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/popup/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/progress/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/radio/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/radio-group/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/rate/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/row/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/search/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/share-sheet/options.ttss",
+        "/Users/bytedance/bytedance-vant/dist/share-sheet/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/sidebar/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/sidebar-item/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/skeleton/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/slider/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/stepper/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/steps/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/sticky/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/submit-bar/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/swipe-cell/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/switch/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/tab/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/tabbar/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/tabbar-item/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/tabs/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/tag/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/toast/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/transition/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/tree-select/index.ttss",
+        "/Users/bytedance/bytedance-vant/dist/uploader/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/dashboard/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/index-bar/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/picker/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/search/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/steps/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/toast/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/action-sheet/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/area/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/button/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/calendar/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/card/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/cell/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/checkbox/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/circle/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/col/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/collapse/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/count-down/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/datetime-picker/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/dialog/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/divider/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/dropdown-menu/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/field/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/empty/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/goods-action/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/grid/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/icon/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/image/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/loading/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/nav-bar/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/notice-bar/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/notify/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/overlay/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/panel/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/popup/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/progress/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/radio/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/rate/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/sidebar/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/share-sheet/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/skeleton/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/slider/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/stepper/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/sticky/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/submit-bar/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/swipe-cell/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/switch/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/tab/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/tabbar/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/tag/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/transition/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/tree-select/index.ttss",
+        "/Users/bytedance/bytedance-vant/pages/uploader/index.ttss"
+      ]
+    },
+    {
+      "type": "wxs -> sjs",
+      "message": "转换文件名后缀 wxs -> sjs，共计 46 个文件",
+      "files": [
+        "/Users/bytedance/bytedance-vant/dist/area/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/button/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/calendar/components/month/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/calendar/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/calendar/utils.sjs",
+        "/Users/bytedance/bytedance-vant/dist/cell/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/checkbox/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/col/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/config-provider/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/divider/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/dropdown-menu/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/empty/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/field/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/grid/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/grid-item/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/icon/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/image/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/loading/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/nav-bar/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/notice-bar/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/notify/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/picker/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/picker-column/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/popup/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/progress/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/radio/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/row/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/share-sheet/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/share-sheet/options.sjs",
+        "/Users/bytedance/bytedance-vant/dist/slider/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/stepper/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/sticky/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/switch/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/tag/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/tabs/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/transition/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/tree-select/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/uploader/index.sjs",
+        "/Users/bytedance/bytedance-vant/dist/wxs/add-unit.sjs",
+        "/Users/bytedance/bytedance-vant/dist/wxs/array.sjs",
+        "/Users/bytedance/bytedance-vant/dist/wxs/bem.sjs",
+        "/Users/bytedance/bytedance-vant/dist/wxs/object.sjs",
+        "/Users/bytedance/bytedance-vant/dist/wxs/memoize.sjs",
+        "/Users/bytedance/bytedance-vant/dist/wxs/style.sjs",
+        "/Users/bytedance/bytedance-vant/dist/wxs/utils.sjs",
+        "/Users/bytedance/bytedance-vant/pages/calendar/index.sjs"
+      ]
+    }
+  ],
+  "needAttention": [
+    {
+      "type": "api is not supported",
+      "content": [
+        {
+          "file": "/Users/bytedance/bytedance-vant/app.js",
+          "message": "api: cloud 暂未支持云开发模式，仅更换前缀，请参考开发者文档完成适配。转换 wx.cloud -> tt.cloud"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/action-sheet/index.js",
+          "message": "api: getUserProfile 暂未支持，仅更换前缀，请参考开发者文档完成适配。转换 wx.getUserProfile -> tt.getUserProfile"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/button/index.js",
+          "message": "api: getUserProfile 暂未支持，仅更换前缀，请参考开发者文档完成适配。转换 wx.getUserProfile -> tt.getUserProfile"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/calendar/index.js",
+          "message": "api: nextTick 暂未支持，仅更换前缀，请参考开发者文档完成适配。转换 wx.nextTick -> tt.nextTick"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/common/utils.js",
+          "message": "api: nextTick 暂未支持，仅更换前缀，请参考开发者文档完成适配。转换 wx.nextTick -> tt.nextTick"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/common/version.js",
+          "message": "api: getUserProfile 暂未支持，仅更换前缀，请参考开发者文档完成适配。转换 wx.getUserProfile -> tt.getUserProfile"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/dialog/dialog.js",
+          "message": "api: nextTick 暂未支持，仅更换前缀，请参考开发者文档完成适配。转换 wx.nextTick -> tt.nextTick"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/dialog/index.js",
+          "message": "api: nextTick 暂未支持，仅更换前缀，请参考开发者文档完成适配。转换 wx.nextTick -> tt.nextTick"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/dropdown-item/index.js",
+          "message": "api: nextTick 暂未支持，仅更换前缀，请参考开发者文档完成适配。转换 wx.nextTick -> tt.nextTick"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/index-bar/index.js",
+          "message": "api: nextTick 暂未支持，仅更换前缀，请参考开发者文档完成适配。转换 wx.nextTick -> tt.nextTick"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/mixins/basic.js",
+          "message": "api: nextTick 暂未支持，仅更换前缀，请参考开发者文档完成适配。转换 wx.nextTick -> tt.nextTick"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/nav-bar/index.js",
+          "message": "api: nextTick 暂未支持，仅更换前缀，请参考开发者文档完成适配。转换 wx.nextTick -> tt.nextTick"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/notify/index.js",
+          "message": "api: nextTick 暂未支持，仅更换前缀，请参考开发者文档完成适配。转换 wx.nextTick -> tt.nextTick"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/rate/index.js",
+          "message": "api: nextTick 暂未支持，仅更换前缀，请参考开发者文档完成适配。转换 wx.nextTick -> tt.nextTick"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/sticky/index.js",
+          "message": "api: nextTick 暂未支持，仅更换前缀，请参考开发者文档完成适配。转换 wx.nextTick -> tt.nextTick"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/tabbar/index.js",
+          "message": "api: nextTick 暂未支持，仅更换前缀，请参考开发者文档完成适配。转换 wx.nextTick -> tt.nextTick"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/uploader/index.js",
+          "message": "api: previewMedia 暂未支持，仅更换前缀，请参考开发者文档完成适配。转换 wx.previewMedia -> tt.previewMedia"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/uploader/utils.js",
+          "message": "api: chooseMedia 暂未支持，仅更换前缀，请参考开发者文档完成适配。转换 wx.chooseMedia -> tt.chooseMedia"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/uploader/utils.js",
+          "message": "api: chooseMessageFile 暂未支持，仅更换前缀，请参考开发者文档完成适配。转换 wx.chooseMessageFile -> tt.chooseMessageFile"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/pages/area/index.js",
+          "message": "api: cloud 暂未支持云开发模式，仅更换前缀，请参考开发者文档完成适配。转换 wx.cloud -> tt.cloud"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/pages/uploader/index.js",
+          "message": "api: cloud 暂未支持云开发模式，仅更换前缀，请参考开发者文档完成适配。转换 wx.cloud -> tt.cloud"
+        }
+      ]
+    },
+    {
+      "type": "component is not supported",
+      "content": [
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/circle/index.ttml",
+          "message": "component: cover-view 暂未支持，请参考开发者文档完成适配。"
+        }
+      ]
+    },
+    {
+      "type": "attribute is not supported",
+      "content": [
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/action-sheet/index.ttml",
+          "message": "<button> attribute: bindgetuserinfo 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/action-sheet/index.ttml",
+          "message": "<button> attribute: bindcontact 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/action-sheet/index.ttml",
+          "message": "<button> attribute: binderror 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/action-sheet/index.ttml",
+          "message": "<button> attribute: bindlaunchapp 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/action-sheet/index.ttml",
+          "message": "<button> attribute: bindopensetting 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/action-sheet/index.ttml",
+          "message": "<button> attribute: lang 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/action-sheet/index.ttml",
+          "message": "<button> attribute: session-from 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/action-sheet/index.ttml",
+          "message": "<button> attribute: send-message-title 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/action-sheet/index.ttml",
+          "message": "<button> attribute: send-message-path 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/action-sheet/index.ttml",
+          "message": "<button> attribute: send-message-img 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/action-sheet/index.ttml",
+          "message": "<button> attribute: show-message-card 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/action-sheet/index.ttml",
+          "message": "<button> attribute: app-parameter 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/button/index.ttml",
+          "message": "<button> attribute: lang 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/button/index.ttml",
+          "message": "<button> attribute: session-from 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/button/index.ttml",
+          "message": "<button> attribute: send-message-title 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/button/index.ttml",
+          "message": "<button> attribute: send-message-path 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/button/index.ttml",
+          "message": "<button> attribute: send-message-img 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/button/index.ttml",
+          "message": "<button> attribute: show-message-card 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/button/index.ttml",
+          "message": "<button> attribute: app-parameter 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/button/index.ttml",
+          "message": "<button> attribute: bindgetuserinfo 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/button/index.ttml",
+          "message": "<button> attribute: bindcontact 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/button/index.ttml",
+          "message": "<button> attribute: binderror 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/button/index.ttml",
+          "message": "<button> attribute: bindlaunchapp 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/button/index.ttml",
+          "message": "<button> attribute: bindopensetting 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/field/input.ttml",
+          "message": "<input> attribute: auto-focus 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/field/input.ttml",
+          "message": "<input> attribute: placeholder-class 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/field/input.ttml",
+          "message": "<input> attribute: confirm-hold 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/field/input.ttml",
+          "message": "<input> attribute: hold-keyboard 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/field/input.ttml",
+          "message": "<input> attribute: always-embed 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/field/input.ttml",
+          "message": "<input> attribute: bindkeyboardheightchange 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/field/textarea.ttml",
+          "message": "<textarea> attribute: auto-focus 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/field/textarea.ttml",
+          "message": "<textarea> attribute: placeholder-class 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/field/textarea.ttml",
+          "message": "<textarea> attribute: adjust-position 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/field/textarea.ttml",
+          "message": "<textarea> attribute: show-confirm-bar 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/field/textarea.ttml",
+          "message": "<textarea> attribute: hold-keyboard 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/field/textarea.ttml",
+          "message": "<textarea> attribute: disable-default-padding 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/field/textarea.ttml",
+          "message": "<textarea> attribute: bindlinechange 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/field/textarea.ttml",
+          "message": "<textarea> attribute: bindkeyboardheightchange 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/image/index.ttml",
+          "message": "<image> attribute: show-menu-by-longpress 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/uploader/index.ttml",
+          "message": "<video> attribute: title 暂未支持，请参考开发者文档完成适配。"
+        },
+        {
+          "file": "/Users/bytedance/bytedance-vant/dist/uploader/index.ttml",
+          "message": "<video> attribute: poster 暂未支持，请参考开发者文档完成适配。"
+        }
+      ]
+    }
+  ],
+  "transformError": [],
+  "transformLog": "/Users/bytedance/bytedance-vant/log.txt"
+}

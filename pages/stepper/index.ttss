@@ -1,0 +1,4 @@
+/* pages/stepper/index.ttss */
+page {
+  background-color: #fff;
+}

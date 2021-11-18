@@ -1,0 +1,4 @@
+/* pages/notice-bar/index.ttss */
+.margin-top {
+  margin-top: 4px;
+}

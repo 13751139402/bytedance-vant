@@ -1,0 +1,2 @@
+<demo-home list="{{ list }}">
+</demo-home>
