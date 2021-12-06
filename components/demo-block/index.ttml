@@ -2,6 +2,8 @@
   <view tt:if="{{ title }}" class="demo-block__title">{{ title }}</view>
   <view class="demo-block__card" tt:if="{{ card }}">
     <slot>
-  </slot></view>
- <slot tt:else>
-</slot></view>
+    </slot>
+  </view>
+  <slot tt:else>
+  </slot>
+</view>
