@@ -1,6 +1,7 @@
-<sjs src="../wxs/utils.sjs" module="utils">
+<sjs src="../wxs/utils.sjs" module="utils"></sjs>
 
-<view class="custom-class {{ utils.bem('tab__pane', { active, inactive: !active }) }}" style="{{ shouldShow ? '' : 'display: none;' }}">
+<view class="custom-class {{ utils.bem('tab__pane', { active, inactive: !active }) }}"
+  style="{{ shouldShow ? '' : 'display: none;' }}">
   <slot tt:if="{{ shouldRender }}">
-</slot></view>
-</sjs>
+  </slot>
+</view>

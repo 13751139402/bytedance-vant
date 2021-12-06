@@ -1,5 +1,5 @@
 <sjs src="./index.sjs" module="computed"></sjs>
-<sjs src="../../../wxs/utils.sjs" module="utils">
+<sjs src="../../../wxs/utils.sjs" module="utils"></sjs>
 
 <view class="van-calendar__month" style="{{ computed.getMonthStyle(visible, date, rowHeight) }}">
   <view tt:if="{{ showMonthTitle }}" class="van-calendar__month-title">
@@ -11,7 +11,10 @@
       {{ computed.getMark(date) }}
     </view>
 
-    <view tt:for="{{ days }}" tt:key="index" style="{{ computed.getDayStyle(item.type, index, date, rowHeight, color, firstDayOfWeek) }}" class="{{ utils.bem('calendar__day', [item.type]) }} {{ item.className }}" data-index="{{ index }}" bindtap="onClick">
+    <view tt:for="{{ days }}" tt:key="index"
+      style="{{ computed.getDayStyle(item.type, index, date, rowHeight, color, firstDayOfWeek) }}"
+      class="{{ utils.bem('calendar__day', [item.type]) }} {{ item.className }}" data-index="{{ index }}"
+      bindtap="onClick">
       <view tt:if="{{ item.type === 'selected' }}" class="van-calendar__selected-day" style="background: {{ color }}">
         <view tt:if="{{ item.topInfo }}" class="van-calendar__top-info">{{ item.topInfo }}</view>
         {{ item.text }}
@@ -30,4 +33,3 @@
     </view>
   </view>
 </view>
-</sjs>

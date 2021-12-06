@@ -1,5 +1,5 @@
-<sjs src="../wxs/utils.sjs" module="utils">
-<sjs src="./index.sjs" module="computed">
+<sjs src="../wxs/utils.sjs" module="utils"></sjs>
+<sjs src="./index.sjs" module="computed"></sjs>
 
 <view class="custom-class van-empty">
   <view class="van-empty__image">
@@ -7,7 +7,8 @@
   </view>
   <view class="van-empty__image">
     <image tt:if="{{ image }}" class="van-empty__image__img" src="{{ computed.imageUrl(image) }}">
-  </image></view>
+    </image>
+  </view>
 
   <view class="van-empty__description">
     <slot name="description"></slot>
@@ -20,4 +21,3 @@
     <slot></slot>
   </view>
 </view>
-</sjs></sjs>

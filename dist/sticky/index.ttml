@@ -1,9 +1,10 @@
-<sjs src="../wxs/utils.sjs" module="utils">
-<sjs src="./index.sjs" module="computed">
+<sjs src="../wxs/utils.sjs" module="utils"></sjs>
+<sjs src="./index.sjs" module="computed"></sjs>
 
 <view class="custom-class van-sticky" style="{{ computed.containerStyle({ fixed, height, zIndex }) }}">
-  <view class="{{ utils.bem('sticky-wrap', { fixed }) }}" style="{{ computed.wrapStyle({ fixed, offsetTop, transform, zIndex }) }}">
+  <view class="{{ utils.bem('sticky-wrap', { fixed }) }}"
+    style="{{ computed.wrapStyle({ fixed, offsetTop, transform, zIndex }) }}">
     <slot>
-  </slot></view>
+    </slot>
+  </view>
 </view>
-</sjs></sjs>

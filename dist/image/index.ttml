@@ -1,16 +1,23 @@
-<sjs src="../wxs/utils.sjs" module="utils">
-<sjs src="./index.sjs" module="computed">
+<sjs src="../wxs/utils.sjs" module="utils"></sjs>
+<sjs src="./index.sjs" module="computed"></sjs>
 
-<view style="{{ computed.rootStyle({ width, height, radius }) }}" class="custom-class {{ utils.bem('image', { round })}}" bind:tap="onClick">
-  <image tt:if="{{ !error }}" src="{{ src }}" mode="{{ computed.mode(fit) }}" lazy-load="{{ lazyLoad }}" class="image-class van-image__img" show-menu-by-longpress="{{ showMenuByLongpress }}" bind:load="onLoad" bind:error="onError">
+<view style="{{ computed.rootStyle({ width, height, radius }) }}"
+  class="custom-class {{ utils.bem('image', { round })}}" bind:tap="onClick">
+  <image tt:if="{{ !error }}" src="{{ src }}" mode="{{ computed.mode(fit) }}" lazy-load="{{ lazyLoad }}"
+    class="image-class van-image__img" show-menu-by-longpress="{{ showMenuByLongpress }}" bind:load="onLoad"
+    bind:error="onError">
 
-  <view tt:if="{{ loading && showLoading }}" class="loading-class van-image__loading">
-    <slot tt:if="{{ useLoadingSlot }}" name="loading">
-    <van-icon tt:else name="photo" custom-class="van-image__loading-icon">
-  </van-icon></slot></view>
-  <view tt:if="{{ error && showError }}" class="error-class van-image__error">
-    <slot tt:if="{{ useErrorSlot }}" name="error">
-    <van-icon tt:else name="photo-fail" custom-class="van-image__error-icon">
-  </van-icon></slot></view>
-</image></view>
-</sjs></sjs>
+    <view tt:if="{{ loading && showLoading }}" class="loading-class van-image__loading">
+      <slot tt:if="{{ useLoadingSlot }}" name="loading">
+        <van-icon tt:else name="photo" custom-class="van-image__loading-icon">
+        </van-icon>
+      </slot>
+    </view>
+    <view tt:if="{{ error && showError }}" class="error-class van-image__error">
+      <slot tt:if="{{ useErrorSlot }}" name="error">
+        <van-icon tt:else name="photo-fail" custom-class="van-image__error-icon">
+        </van-icon>
+      </slot>
+    </view>
+  </image>
+</view>

@@ -1,6 +1,7 @@
-<sjs src="./index.sjs" module="computed">
+<sjs src="./index.sjs" module="computed"></sjs>
 
-<view class="van-grid custom-class {{ border && !gutter ? 'van-hairline--top' : '' }}" style="{{ computed.rootStyle({ gutter }) }}">
+<view class="van-grid custom-class {{ border && !gutter ? 'van-hairline--top' : '' }}"
+  style="{{ computed.rootStyle({ gutter }) }}">
   <slot>
-</slot></view>
-</sjs>
+  </slot>
+</view>

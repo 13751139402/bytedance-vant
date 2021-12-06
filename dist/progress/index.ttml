@@ -1,5 +1,5 @@
-<sjs src="../wxs/utils.sjs" module="utils">
-<sjs src="./index.sjs" module="computed">
+<sjs src="../wxs/utils.sjs" module="utils"></sjs>
+<sjs src="./index.sjs" module="computed"></sjs>
 
 <view class="van-progress custom-class" style="{{ computed.rootStyle({ strokeWidth, trackColor }) }}">
   <view class="van-progress__portion" style="{{ computed.portionStyle({ percentage, inactive, color }) }}">
@@ -8,4 +8,3 @@
     </view>
   </view>
 </view>
-</sjs></sjs>

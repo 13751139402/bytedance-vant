@@ -1,6 +1,6 @@
-<sjs src="./index.sjs" module="computed">
+<sjs src="./index.sjs" module="computed"></sjs>
 
 <view class="van-config-provider" style="{{ computed.mapThemeVarsToCSSVars(themeVars) }}">
   <slot>
-</slot></view>
-</sjs>
+  </slot>
+</view>

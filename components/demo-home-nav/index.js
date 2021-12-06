@@ -1,23 +1,23 @@
 Component({
   properties: {
-    group: Object
+    group: Object,
   },
   methods: {
     onClick(event) {
-      const {
-        url
-      } = event.target.dataset;
+      const { url } = event.target.dataset;
 
       if (getCurrentPages().length > 9) {
         tt.redirectTo({
-          url
+          url,
         });
       } else {
         tt.navigateTo({
-          url
+          url,
+          fail(error) {
+            console.log(error);
+          },
         });
       }
-    }
-
-  }
+    },
+  },
 });

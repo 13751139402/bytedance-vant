@@ -1,4 +1,4 @@
-<sjs src="../wxs/utils.sjs" module="utils">
+<sjs src="../wxs/utils.sjs" module="utils"></sjs>
 
 <view class="custom-class van-card">
   <view class="{{ utils.bem('card__header', { center: centered }) }}">
@@ -43,4 +43,3 @@
     <slot name="footer">
   </slot></view>
 </view>
-</sjs>

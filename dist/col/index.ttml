@@ -1,7 +1,8 @@
-<sjs src="../wxs/utils.sjs" module="utils">
-<sjs src="./index.sjs" module="computed">
+<sjs src="../wxs/utils.sjs" module="utils"></sjs>
+<sjs src="./index.sjs" module="computed"></sjs>
 
-<view class="custom-class {{ utils.bem('col', [span]) }} {{ offset ? 'van-col--offset-' + offset : '' }}" style="{{ computed.rootStyle({ gutter }) }}">
+<view class="custom-class {{ utils.bem('col', [span]) }} {{ offset ? 'van-col--offset-' + offset : '' }}"
+  style="{{ computed.rootStyle({ gutter }) }}">
   <slot>
-</slot></view>
-</sjs></sjs>
+  </slot>
+</view>
